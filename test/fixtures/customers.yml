@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username_of_sponsor,: MyString
+  name,: MyString
+  email,: MyString
+  email_confirmation,: MyString
+  username,: MyString
+  cpf,: MyString
+  rg,: MyString
+  birth_date: MyString
+
+two:
+  username_of_sponsor,: MyString
+  name,: MyString
+  email,: MyString
+  email_confirmation,: MyString
+  username,: MyString
+  cpf,: MyString
+  rg,: MyString
+  birth_date: MyString

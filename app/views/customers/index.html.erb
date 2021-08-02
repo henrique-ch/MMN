@@ -5,13 +5,13 @@
 <table>
   <thead>
     <tr>
-      <th>Username of sponsor,</th>
-      <th>Name,</th>
-      <th>Email,</th>
-      <th>Email confirmation,</th>
-      <th>Username,</th>
-      <th>Cpf,</th>
-      <th>Rg,</th>
+      <th>Username of sponsor</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Email confirmation</th>
+      <th>Username</th>
+      <th>Cpf</th>
+      <th>Rg</th>
       <th>Birth date</th>
       <th colspan="3"></th>
     </tr>
@@ -20,13 +20,13 @@
   <tbody>
     <% @customers.each do |customer| %>
       <tr>
-        <td><%= customer.username_of_sponsor, %></td>
-        <td><%= customer.name, %></td>
-        <td><%= customer.email, %></td>
-        <td><%= customer.email_confirmation, %></td>
-        <td><%= customer.username, %></td>
-        <td><%= customer.cpf, %></td>
-        <td><%= customer.rg, %></td>
+        <td><%= customer.username_of_sponsor %></td>
+        <td><%= customer.name %></td>
+        <td><%= customer.email %></td>
+        <td><%= customer.email_confirmation %></td>
+        <td><%= customer.username %></td>
+        <td><%= customer.cpf %></td>
+        <td><%= customer.rg %></td>
         <td><%= customer.birth_date %></td>
         <td><%= link_to 'Show', customer %></td>
         <td><%= link_to 'Edit', edit_customer_path(customer) %></td>
